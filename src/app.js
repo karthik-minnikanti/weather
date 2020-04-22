@@ -16,7 +16,7 @@ hbs.registerPartials(partialPath)
 // })
 // console.log(home)
 const port = process.env.PORT || 3000
-app.get('',(req,res)=>
+app.get('/',(req,res)=>
 {
     res.render('index',{
         title:'weather App',
