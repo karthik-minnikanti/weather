@@ -1,0 +1,25 @@
+body{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    align-items: center;
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    color:rgba(201, 30, 30, 0);
+    padding: 100 100;
+    margin: 100px;
+}
+head a
+
+{
+    text-decoration: none;
+}
