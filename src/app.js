@@ -15,6 +15,7 @@ hbs.registerPartials(partialPath)
 //     res.send('<h1>weather</h1>')
 // })
 // console.log(home)
+const port = process.env.PORT || 3000
 app.get('',(req,res)=>
 {
     res.render('index',{
@@ -63,6 +64,7 @@ app.get('/weather',(req,res)=>
 
     })
 
+
 })
 })
 app.get('/products',(req,res)=>
@@ -82,8 +84,8 @@ app.get('/products',(req,res)=>
     
 })
 
-app.listen(3000, () => {
-    console.log('server started')
+app.listen(port, () => {
+    console.log('server started on '+port)
 })
 app.get('*',(req,res)=>{
     res.render('notfound',{
